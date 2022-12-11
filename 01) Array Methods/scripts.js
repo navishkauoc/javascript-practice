@@ -21,3 +21,10 @@ const itemNames = items.map((item) => {
 });
 
 console.log(itemNames);
+
+// find() method
+const foundItem = items.find((item) => {
+    return item.name === 'Book';
+});
+
+console.log(foundItem);
