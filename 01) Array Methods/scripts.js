@@ -7,3 +7,9 @@ const items = [
     {name: 'Computer', price: 1000},
     {name: 'Keyboard', price: 25}
 ]
+
+const filteredItems = items.filter((item) => {
+    return item.price <= 100;
+});
+
+console.log(filteredItems);
