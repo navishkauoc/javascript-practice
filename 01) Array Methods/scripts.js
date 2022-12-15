@@ -50,3 +50,8 @@ const total = items.reduce((currentTotal, item) => {
     return item.price + currentTotal
 }, 0);
 console.log(total);
+
+// includes() method
+const numbers = [1, 2, 3, 4, 5, 6];
+const includesTwo = numbers.includes(2);
+console.log(includesTwo);
