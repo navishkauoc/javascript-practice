@@ -44,3 +44,9 @@ const isEveryItemEqualOrLessToThousand = items.every((item) => {
     return item.price <= 100;
 });
 console.log(isEveryItemEqualOrLessToThousand);
+
+// reduce() method
+const total = items.reduce((currentTotal, item) => {
+    return item.price + currentTotal
+}, 0);
+console.log(total);
