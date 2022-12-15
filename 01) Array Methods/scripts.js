@@ -8,7 +8,7 @@ const items = [
     {name: 'Phone', price: 500},
     {name: 'Computer', price: 1000},
     {name: 'Keyboard', price: 25}
-]
+];
 
 // filter() method
 const filteredItems = items.filter((item) => {
@@ -32,3 +32,9 @@ console.log(foundItem);
 items.forEach((item) => {
     console.log(item.name);
 });
+
+// some() method
+const hasInexpensiveItems = items.some((item) => {
+    return item.price <= 100;
+});
+console.log(hasInexpensiveItems);
