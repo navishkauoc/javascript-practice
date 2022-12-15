@@ -38,3 +38,9 @@ const hasInexpensiveItems = items.some((item) => {
     return item.price <= 100;
 });
 console.log(hasInexpensiveItems);
+
+// every() method
+const isEveryItemEqualOrLessToThousand = items.every((item) => {
+    return item.price <= 100;
+});
+console.log(isEveryItemEqualOrLessToThousand);
