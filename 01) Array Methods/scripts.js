@@ -55,3 +55,10 @@ console.log(total);
 const numbers = [1, 2, 3, 4, 5, 6];
 const includesTwo = numbers.includes(2);
 console.log(includesTwo);
+
+// splice() method
+const myFish = ["angel", "clown", "mandarin", "sturgeon"];
+const removed = myFish.splice(2, 0, "drum");
+
+// myFish is ["angel", "clown", "drum", "mandarin", "sturgeon"]
+// removed is [], no elements removed
